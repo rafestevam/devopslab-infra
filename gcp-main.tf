@@ -1,4 +1,4 @@
-#Criação de um repo no Artifact Registry
+#Criação de um repo no Artifact Registry - Entrega Final
 resource "google_artifact_registry_repository" "my-repo" {
   location = var.region
   repository_id = "labdevops"
